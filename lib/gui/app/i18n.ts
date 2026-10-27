@@ -6,8 +6,9 @@ import en_translation from './i18n/en';
 import tr_translation from './i18n/tr';
 
 export function langParser() {
-	if (process.env.LANG !== undefined) {
-		// Bypass mocha, where lang-detect don't works
+	if (process.env.NODE_ENV === 'test') {
+		// Keep tests in English: WebdriverIO workers run with NODE_ENV=test,
+		// and webpack fixes NODE_ENV in app builds, so users never get here.
 		return 'en';
 	}
 
