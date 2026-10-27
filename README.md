@@ -1,3 +1,19 @@
+# Etcher TR
+
+**Etcher with a Turkish interface.** An unofficial, independent edition of [balena-io/etcher](https://github.com/balena-io/etcher). **[Türkçe açıklama ↓](#türkçe)**
+
+> Based on [balena-io/etcher](https://github.com/balena-io/etcher), Apache License 2.0 (see [LICENSE](LICENSE)). This is an independent community edition. It is not affiliated with or endorsed by balena; Etcher and balenaEtcher are trademarks of balena. The full upstream history is kept; every file this edition modifies is listed in its [pull requests](https://github.com/celaldrg/etcher-tr/pulls?q=is%3Apr) and commit history.
+>
+> The Turkish interface is added through this repository's pull requests. This edition has no releases; the download links below point to the official balenaEtcher releases. Upstream's CI (Flowzone) needs balena's runners and secrets, so this edition replaces it with a workflow that runs the linter and type checks the translation module (`.github/workflows/ci.yml`).
+
+### Türkçe
+
+**Etcher TR**, [balena-io/etcher](https://github.com/balena-io/etcher) projesinin **resmî olmayan**, bağımsız bir sürümüdür. Amacı arayüzü Türkçe yapmak; Türkçe çeviri bu deponun [PR'larıyla](https://github.com/celaldrg/etcher-tr/pulls?q=is%3Apr) ekleniyor. Değiştirilen her dosya commit geçmişinde görünür. Lisans: Apache 2.0 ([LICENSE](LICENSE)). balena ile bağlantılı değildir, onlar tarafından onaylanmamıştır; Etcher ve balenaEtcher, balena'nın ticari markalarıdır.
+
+Bu sürümün yayını yok; aşağıdaki indirme bağlantıları resmî balenaEtcher sürümlerine gider. Ana projenin CI'ı (Flowzone) balena'nın koşucularını ve sırlarını istediği için bu sürümde yerine lint çalıştıran ve çeviri modülünün tür denetimini yapan bir iş akışı (`.github/workflows/ci.yml`) var.
+
+---
+
 # Etcher
 
 > Flash OS images to SD cards & USB drives, safely and easily.
