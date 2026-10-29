@@ -44,6 +44,7 @@ const config: ForgeConfig = {
 		extraResource: [
 			'lib/shared/sudo/sudo-askpass.osascript-zh.js',
 			'lib/shared/sudo/sudo-askpass.osascript-en.js',
+			'lib/shared/sudo/sudo-askpass.osascript-tr.js',
 		],
 		osxSign: {
 			// `etcher-util` is the privileged helper invoked under sudo to write
